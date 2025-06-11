@@ -95,6 +95,61 @@ const PersonalFinance = () => {
           content="Categorize your expenses and keep your spending aligned with your goals."
           title="Stay on Budget with meely"
         />
+        <MeelyCard
+          images={
+            <div className="relative h-[190px] w-full overflow-hidden">
+              <Image
+                className="absolute  top-2 right-2 z-0"
+                src={"/card1/c-10.png"}
+                width={247}
+                height={189}
+                alt=""
+              />
+              <Image
+                className="absolute rounded-md top-5 left-6 z-10"
+                src={"/card1/c-9.png"}
+                width={229}
+                height={83}
+                
+                alt=""
+              />
+            </div>
+          }
+          content="Automatically charge your customer’s payment method on file, or email them the invoice "
+          title="Send an invoice your customers"
+        />
+        <MeelyCard
+          images={
+            <div className="relative h-[190px] w-full overflow-hidden">
+              <Image
+                className="absolute scale-200 origin-top-left left-14 top-4 rounded-md"
+                src={"/card1/c-11.png"}
+                width={427}
+                height={303}
+                
+                alt=""
+              />
+            </div>
+          }
+          content="Never lose track of recurring payments — cancel or adjust with ease."
+          title="Simplify Subscriptions"
+        />
+        <MeelyCard
+          images={
+            <div className="relative h-[190px] w-full overflow-hidden">
+              <Image
+                className="absolute scale-125 origin-top-left left-8 top-4 rounded-md"
+                src={"/card1/c-12.png"}
+                width={427}
+                height={303}
+                
+                alt=""
+              />
+            </div>
+          }
+          content="Get cashbacks, perks, and exclusive rewards every time you use Meely."
+          title="Earn as You Spend with meely reward"
+        />
       </div>
     </div>
   );

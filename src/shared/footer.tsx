@@ -54,7 +54,7 @@ export default function Footer() {
       </div>
 
       {/* Underline Divider */}
-      <div className="border-t border-[#7F7F8A]"></div>
+      <div className="border-t max-w-7xl mx-auto border-[#7F7F8A]"></div>
 
       {/* Bottom Text */}
       <div className="text-center py-6 text-xs text-muted-foreground">

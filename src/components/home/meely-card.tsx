@@ -6,7 +6,7 @@ const MeelyCard: React.FC<{
   images: React.ReactNode;
 }> = ({ title, content, images }) => {
   return (
-    <Card className="w-full max-w-[370px] overflow-hidden">
+    <Card className="w-full pt-1 max-w-[370px] overflow-hidden">
       <div
         className="h-[190px] mx-2 my-2 rounded-xl"
         style={{ backgroundColor: "#F5F8FB" }}

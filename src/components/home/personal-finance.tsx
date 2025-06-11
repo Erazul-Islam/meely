@@ -2,10 +2,12 @@ import Heading from "@/shared/heading";
 import HeadingDetails from "@/shared/heading-details";
 import MeelyButton from "@/shared/meely-button";
 import React from "react";
+import MeelyCard from "./meely-card";
+import Image from "next/image";
 
 const PersonalFinance = () => {
   return (
-    <div className="bg-[url('/bg.png')] px-4 h-screen md:my-10 my-5 bg-no-repeat">
+    <div className="bg-[url('/bg.png')] px-4 md:my-10 my-5 bg-no-repeat">
       <div className="lg:pt-12 pt-6 ">
         <MeelyButton className="mx-auto" text="For Personal Finance" />
       </div>
@@ -14,6 +16,86 @@ const PersonalFinance = () => {
         className="max-w-[605px] mx-auto w-full"
         text="Meely gives individuals full visibility and control over everyday money management — from spending to saving and investing, all in one secure app."
       />
+      <div className="md:px-4 py-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-5 max-w-[1170px]">
+        <MeelyCard
+          images={
+            <div className="relative">
+              <Image
+                className="absolute  top-4 right-2 z-10"
+                src={"/card1/c-1.png"}
+                width={182}
+                height={102}
+                alt=""
+              />
+              <Image
+                className="absolute rounded-md top-12 left-2 md:left-6 z-0"
+                src={"/card1/c-2.png"}
+                width={293}
+                height={130}
+                alt=""
+              />
+            </div>
+          }
+          content="Instantly see where your money is going and how you're spending over time."
+          title="Smart Money Tracking"
+        />
+        <MeelyCard
+          images={
+            <div className="relative   h-[190px] w-full overflow-hidden">
+              <Image
+                className="absolute border border-[#E9E9E9] top-12 left-3  rounded-[10px] z-10"
+                src={"/card1/c-4.png"}
+                width={112}
+                height={62}
+                alt=""
+              />
+              <Image
+                className="absolute border border-[#E9E9E9] bottom-4 left-3  rounded-[10px] z-10"
+                src={"/card1/c-6.png"}
+                width={97}
+                height={54}
+                alt=""
+              />
+              <Image
+                className="absolute rounded-md top-8 right-2  z-0"
+                src={"/card1/c-3.png"}
+                width={279}
+                height={198}
+                alt=""
+              />
+            </div>
+          }
+          content="Easily transfer funds to friends, family, or anyone — anytime, anywhere."
+          title={
+            <div>
+              Send Money <br /> Instantly
+            </div>
+          }
+        />
+        <MeelyCard
+          images={
+            <div className="relative h-[190px] w-full overflow-hidden">
+              <Image
+                className="absolute  top-8 right-2 z-0"
+                src={"/card1/c-7.png"}
+                width={266}
+                height={189}
+                alt=""
+              />
+              <Image
+                className="absolute rounded-md top-4 left-4 md:left-6 z-10"
+                src={"/card1/c-8.png"}
+                width={229}
+                height={83}
+                
+                alt=""
+              />
+            </div>
+          }
+          content="Categorize your expenses and keep your spending aligned with your goals."
+          title="Stay on Budget with meely"
+        />
+      </div>
     </div>
   );
 };

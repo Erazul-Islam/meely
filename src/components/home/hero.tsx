@@ -5,7 +5,23 @@ import { ChevronRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="bg-[#F9F9FB]">
+    <div className="bg-[#F9F9FB] relative">
+      <div className="absolute inset-0 z-0">
+    <Image
+      className="absolute left-0 top-0 hidden md:block"
+      src={"/v-1.svg"}
+      width={720}
+      height={720}
+      alt=""
+    />
+    <Image
+      className="absolute right-0 top-0 hidden md:block"
+      src={"/v-2.svg"}
+      width={720}
+      height={720}
+      alt=""
+    />
+  </div>
       <div className="px-4 flex flex-col justify-center items-center">
         <Button
           variant="ghost"

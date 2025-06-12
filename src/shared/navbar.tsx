@@ -19,7 +19,7 @@ export default function Navbar() {
           <Link href="/about-us" className="hover:text-primary">
             About Us
           </Link>
-          <Link href="/contact" className="hover:text-primary">
+          <Link href="/contact-us" className="hover:text-primary">
             Contact Us
           </Link>
         </div>
@@ -50,7 +50,7 @@ export default function Navbar() {
                 <Link href="/about-us" className="text-base hover:text-primary">
                   About Us
                 </Link>
-                <Link href="/contact" className="text-base hover:text-primary">
+                <Link href="/contact-us" className="text-base hover:text-primary">
                   Contact Us
                 </Link>
                 <Button

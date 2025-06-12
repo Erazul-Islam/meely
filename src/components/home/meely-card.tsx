@@ -4,9 +4,10 @@ const MeelyCard: React.FC<{
   title: React.ReactNode;
   content: string;
   images: React.ReactNode;
-}> = ({ title, content, images }) => {
+  className?:string
+}> = ({ title, content, images,className }) => {
   return (
-    <Card className="w-full pt-1 max-w-[370px] overflow-hidden">
+    <Card className={`w-full ${className} pt-1  overflow-hidden`}>
       <div
         className="h-[190px] mx-2 my-2 rounded-xl"
         style={{ backgroundColor: "#F5F8FB" }}

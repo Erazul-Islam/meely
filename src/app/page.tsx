@@ -1,4 +1,5 @@
 import BusinessUse from "@/components/home/business-use";
+import FaqSection from "@/components/home/faq-section";
 import Hero from "@/components/home/hero";
 import PersonalFinance from "@/components/home/personal-finance";
 import Review from "@/components/home/review";
@@ -12,6 +13,7 @@ export default function Home() {
       <WhyMeely />
       <BusinessUse/>
       <Review/>
+      <FaqSection/>
     </div>
   );
 }

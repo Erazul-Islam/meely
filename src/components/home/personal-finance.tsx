@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const PersonalFinance = () => {
   return (
-    <div className="bg-[url('/bg.png')] px-4 md:my-10 my-5 bg-no-repeat">
+    <div className="bg-[url('/b.png')] w-full px-4 md:my-10 my-5 bg-cover bg-no-repeat">
       <div className="lg:pt-12 pt-6 ">
         <MeelyButton className="mx-auto" text="For Personal Finance" />
       </div>

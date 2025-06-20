@@ -162,7 +162,8 @@ const PersonalFinance = () => {
             content="Buy and sell digital assets directly within Meely’s secure platform. (Offered via partner)"
             title={
               <div>
-                Invest with <br /> meely
+                Track Financial <br /> Activity
+                
               </div>
             }
           />
@@ -197,7 +198,7 @@ const PersonalFinance = () => {
                 />
               </div>
             }
-            content="Understand your spending and income trends with simple, real-time visuals that help you stay in control."
+            content="Understand your spending and income with simple, real-time visuals that help you stay in control."
             title="Insights You Can Trust"
           />
         </div>

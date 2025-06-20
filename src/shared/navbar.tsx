@@ -25,15 +25,19 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex space-x-3">
-          <Button
-            className="border border-[#E3E3E9] cursor-pointer rounded-full"
-            variant="ghost"
-          >
-            Login
-          </Button>
-          <Button className="rounded-full bg-gradient-to-tl cursor-pointer from-[#13121D] to-[#454062]">
-            Get Started
-          </Button>
+          <Link href="/comming-soon">
+            <Button
+              className="border border-[#E3E3E9] cursor-pointer rounded-full"
+              variant="ghost"
+            >
+              Login
+            </Button>
+          </Link>
+          <Link href="/comming-soon">
+            <Button className="rounded-full cursor-pointer bg-gradient-to-tl  from-[#13121D] to-[#454062]">
+              Get Started
+            </Button>
+          </Link>
         </div>
         <div className="md:hidden">
           <Sheet>
@@ -50,7 +54,10 @@ export default function Navbar() {
                 <Link href="/about-us" className="text-base hover:text-primary">
                   About Us
                 </Link>
-                <Link href="/contact-us" className="text-base hover:text-primary">
+                <Link
+                  href="/contact-us"
+                  className="text-base hover:text-primary"
+                >
                   Contact Us
                 </Link>
                 <Button

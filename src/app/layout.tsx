@@ -3,6 +3,8 @@ import {  Figtree } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/shared/navbar";
 import Footer from "@/shared/footer";
+
+
 const figtree = Figtree({
   variable: "--font-figtree-sans",
   subsets: ["latin"],

@@ -30,19 +30,19 @@ const Hero = () => {
           meely 1.0 Public <ChevronRight height={12} />
         </Button>
         <p className="text-center text-2xl font-medium  md:text-6xl ">
+          
           The Only <span className="text-[#1521F2]">Fintech Super App </span>{" "}
           <br />
           You’ll Ever Need
         </p>
         <p className="text-[#67666B] text-sm md:text-2xl font-normal py-4 text-center">
-          Manage money, pay, trade, insure, and grow <br /> — all in one secure
-          place.
+          Manage money, make payments, organize your finances, and <br className="md:block hidden" /> access essential tools — all in one secure platform.
         </p>
         <Button className="rounded-full my-5 bg-gradient-to-tl cursor-pointer from-[#13121D] to-[#454062]">
           Get Started
         </Button>
       </div>
-      <div className="bg-[#FFF] max-w-[1176px] w-full mx-auto p-5 rounded-3xl flex justify-center items-center">
+      <div className="bg-[#FFF] max-w-[1176px] w-full mx-auto  rounded-3xl flex justify-center items-center">
         <Image src={"/hero.png"} width={1000} height={833} alt="" />
       </div>
     </div>

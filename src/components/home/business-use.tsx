@@ -18,7 +18,7 @@ const BusinessUse = () => {
       />
       <div className="flex justify-center items-center">
         <div className="md:px-4 py-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-5 max-w-[1170px]">
-            <MeelyCard
+            {/* <MeelyCard
             images={
               <div className="relative h-[190px] w-full overflow-hidden">
                 <Image
@@ -32,7 +32,7 @@ const BusinessUse = () => {
             }
             content="Schedule and send payroll with confidence — pay contractors or employees on time."
             title="Run Payroll Automatically"
-          />
+          /> */}
             <MeelyCard
             images={
               <div className="relative h-[190px] w-full overflow-hidden">
@@ -108,7 +108,7 @@ const BusinessUse = () => {
             content="Issue and limit spending on employee cards with full control."
             title="Control and Track Team Cards"
           />
-          <MeelyCard
+          {/* <MeelyCard
             images={
               <div className="relative h-[190px] overflow-hidden rounded-2xl">
                 <Image
@@ -122,8 +122,8 @@ const BusinessUse = () => {
             }
             content="Accept payments from customers through smart and secure business tools."
             title="Sell with Confidence"
-          />
-          <MeelyCard
+          /> */}
+          {/* <MeelyCard
             images={
               <div className="relative h-[190px] overflow-hidden rounded-2xl">
                 <Image
@@ -137,8 +137,8 @@ const BusinessUse = () => {
             }
             content="Seamlessly integrate with platforms like QuickBooks, Xero, and Zapier."
             title="Integrate with Your Tools"
-          />
-          <MeelyCard
+          /> */}
+          {/* <MeelyCard
             images={
               <div className="relative h-[190px] overflow-hidden rounded-2xl">
                 <Image
@@ -152,7 +152,7 @@ const BusinessUse = () => {
             }
             content="Optional business insurance through licensed third-party providers."
             title="Protect Your Business Assets"
-          />
+          /> */}
 
         </div>
       </div>

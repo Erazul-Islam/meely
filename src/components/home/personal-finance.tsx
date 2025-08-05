@@ -95,7 +95,7 @@ const PersonalFinance = () => {
             content="Categorize your expenses and keep your spending aligned with your goals."
             title="Stay on Budget with meely"
           />
-          <MeelyCard
+          {/* <MeelyCard
             images={
               <div className="relative h-[190px] w-full overflow-hidden">
                 <Image
@@ -116,8 +116,8 @@ const PersonalFinance = () => {
             }
             content="Automatically charge your customer’s payment method on file, or email them the invoice "
             title="Send an invoice your customers"
-          />
-          <MeelyCard
+          /> */}
+          {/* <MeelyCard
             images={
               <div className="relative h-[190px] w-full overflow-hidden">
                 <Image
@@ -131,8 +131,8 @@ const PersonalFinance = () => {
             }
             content="Never lose track of recurring payments — cancel or adjust with ease."
             title="Simplify Subscriptions"
-          />
-          <MeelyCard
+          /> */}
+          {/* <MeelyCard
             images={
               <div className="relative h-[190px] w-full overflow-hidden">
                 <Image
@@ -146,7 +146,7 @@ const PersonalFinance = () => {
             }
             content="Get cashbacks, perks, and exclusive rewards every time you use Meely."
             title="Earn as You Spend with meely reward"
-          />
+          /> */}
           <MeelyCard
             images={
               <div className="relative h-[190px] w-full rounded-2xl overflow-hidden">
@@ -167,7 +167,7 @@ const PersonalFinance = () => {
               </div>
             }
           />
-          <MeelyCard
+          {/* <MeelyCard
             images={
               <div className="relative h-[190px] w-full overflow-hidden">
                 <Image
@@ -185,7 +185,7 @@ const PersonalFinance = () => {
                 Protect What <br /> Matters
               </div>
             }
-          />
+          /> */}
           <MeelyCard
             images={
               <div className="relative h-[190px] w-full rounded-2xl overflow-hidden">

@@ -7,7 +7,7 @@ const SuperApp = () => {
     <div className="max-w-[1440px] mx-auto px-4">
       <div className="bg-[#1521F2] relative  pt-12 lg:pt-24 lg:pb-48 pb-32 px-4 mt-8 lg:mt-16 rounded-2xl">
         <h1 className="text-center text-2xl text-white font-medium md:text-5xl">
-          One Super App. Endless <br /> Possibilities.
+          Fintech App. Endless <br /> Possibilities.
         </h1>
         <p className="text-center text-white py-4">
           Join Meely and take control of your money and business today.
